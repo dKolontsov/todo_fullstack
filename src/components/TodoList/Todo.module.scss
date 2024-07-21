@@ -1,0 +1,21 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    p {
+        cursor: pointer;
+    }
+}
